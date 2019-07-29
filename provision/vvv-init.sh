@@ -124,7 +124,6 @@ PHP
   wp plugin install debug-bar --activate --allow-root
   wp plugin install debug-bar-console --activate --allow-root
   wp plugin install debug-bar-cron --activate --allow-root
-  wp plugin install debug-bar-extender --activate --allow-root
   wp plugin install rewrite-rules-inspector --activate --allow-root
   wp plugin install log-deprecated-notices --allow-root
   wp plugin install log-viewer --allow-root
