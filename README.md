@@ -1,3 +1,8 @@
+# Update 2019
+
+using .local extension instead of depricated .dev extension, more details:
+https://varyingvagrantvagrants.org/docs/en-US/troubleshooting/dev-tld/
+
 # WooCommerce Development VVV
 
 WooCommerce Development VVV is an [auto-sitesetup](https://github.com/Varying-Vagrant-Vagrants/VVV/wiki/Auto-site-Setup) designed to be used with [Varying Vagrant Vagrants](https://github.com/Varying-Vagrant-Vagrants/VVV) for developing or testing [WooCommerce](https://woocommerce.com) focused plugins and themes.
@@ -16,24 +21,24 @@ If you are already using an existing [vvv-custom.yml](https://varyingvagrantvagr
 wooocommerce-develop:
   repo: https://github.com/stuartduff/woocommerce-development-vvv.git
   hosts:
-    - local.woocommerce.dev
+    - local.woocommerce.local
 ```
 
 If your Vagrant is running, from the Vagrant directory run `vagrant halt` followed by `vagrant up --provision`.
 
 Now you can sit back and relax as provisioning may take a while to complete.
 
-Once provisioning has completed you can visit [local.woocommerce.dev](http://local.woocommerce.dev/) to see your newly installed site.
+Once provisioning has completed you can visit [local.woocommerce.local](http://local.woocommerce.local/) to see your newly installed site.
 
 ## WordPress Login Details
 
-Admin URL: [local.woocommerce.dev/wp-admin/](http://local.woocommerce.dev/wp-admin/) </br>
+Admin URL: [local.woocommerce.local/wp-admin/](http://local.woocommerce.local/wp-admin/) </br>
 Username: `admin` </br>
 Password: `password`
 
 ## phpMyAdmin Login Details
 
-phpMyAdmin URL: [vvv.dev/database-admin/](http://vvv.dev/database-admin/) </br>
+phpMyAdmin URL: [vvv.local/database-admin/](http://vvv.local/database-admin/) </br>
 Username: `root` </br>
 Password: `root`
 
