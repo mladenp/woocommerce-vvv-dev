@@ -127,7 +127,7 @@ PHP
   wp plugin install rewrite-rules-inspector --activate --allow-root
   wp plugin install log-deprecated-notices --allow-root
   wp plugin install log-viewer --allow-root
-  wp plugin install wordpress-beta-tester --allow-root
+
 
   # Delete unrequired default plugins
   echo "Deleting unrequired default plugins..."
